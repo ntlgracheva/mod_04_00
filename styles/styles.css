@@ -521,6 +521,11 @@ td.show-on-page {
     appearance: none;
 }
 
+.label__input-disabled {
+    position: relative;
+
+}
+
 .label__input-disabled::after {
     content: '';
     position: absolute;
@@ -537,8 +542,6 @@ td.show-on-page {
 .form__checkbox:checked~.label__input-disabled::after {
     display: none;
 }
-
-
 
 .form__label[for="description"] {
     grid-column-start: 2;
